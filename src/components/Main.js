@@ -22,7 +22,7 @@ class AppComponent extends React.Component {
       <div className="index">
         <div className="notice">
           <NavBar />
-          <h1 className='h1'>KYLE LANGE</h1>
+          <h1>KYLE LANGE</h1>
         </div>
       </div>
     );

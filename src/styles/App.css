@@ -8,17 +8,20 @@ h1 {
   font-family:'Oswald', sans-serif;
   font-weight: 200;
   letter-spacing: 3px;
-  font-size: 70px;
-  margin-left: 37%;
-
+  font-size: 90px;
+  margin-left: 31%;
+  margin-top: 0;
+  border: 1px solid #31FF31;
+  padding: 20px;
+  width: 403px;
 }
 
- .notice {
+.notice {
   margin: 20px auto;
   padding: 15px 0;
   border-width: 1px 0;
   width: 95vw;
-  height: 95vh;
+  height: 90vh;
   background-image: url(../images/working-hands.jpg);
   filter: grayscale(70%);
   background-repeat: no-repeat;
