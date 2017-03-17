@@ -4,11 +4,11 @@ body {
   background: #222;
 }
 
-.index img {
-  margin: 40px auto;
-  border-radius: 4px;
-  background: #fff;
-  display: block;
+h1 {
+  font-family:'Oswald', sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-size: 70px;
 }
 
 .index .notice {
@@ -17,5 +17,12 @@ body {
   text-align: center;
   border: 1px solid #000;
   border-width: 1px 0;
-  background: #666;
+  width: 95vw;
+  height: 95vh;
+  background-image: url(../images/working-hands.jpg);
+  filter: grayscale(70%);
+  background-repeat: no-repeat;
+  background-size: 1300px;
+  background-position-x: 35%;
+  background-position-y: 90%;
 }
