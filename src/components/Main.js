@@ -3,6 +3,7 @@ require('styles/App.css');
 
 import React from 'react';
 import NavBar from './NavBar.js';
+import Projects from './Projects.js';
 
 //let yeomanImage = require('../images/yeoman.png');
 
@@ -22,8 +23,9 @@ class AppComponent extends React.Component {
       <div className="index">
         <div className="notice">
           <NavBar />
-          <h1>KYLE LANGE</h1>
+          <h1 className='hero-text' >KYLE LANGE</h1>
         </div>
+        <Projects />
       </div>
     );
   }
