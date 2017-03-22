@@ -12,7 +12,11 @@
 }
 
 .text-box > * {
-  padding: 25px;
+  padding: 13.5px 50px;
+}
+
+.text-box h3 {
+  color: #98D698;
 }
 
 .flex-default {
