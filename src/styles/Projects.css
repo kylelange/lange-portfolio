@@ -8,11 +8,21 @@
 }
 .text-box {
   background-color: rgba(58, 83, 69, 0.6);
-  border: 1px solid #31FF31;
+  border: 1px solid #98D698;
+}
+
+.text-box > * {
+  padding: 25px;
+}
+
+.flex-default {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .screenshot {
-  border: 1px solid #31FF31;
+  border: 1px solid #98D698;
   width: 40%;
   height: auto;
 }
