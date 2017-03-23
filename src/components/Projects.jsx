@@ -20,7 +20,7 @@ class Projects extends React.Component {
         <div className="text-box">
           <h2>Lumen Learning: TEACHER TOOLS</h2>
           <div className="flex-default">
-            <a src='#' ><h3>CASE STUDY</h3></a>
+            <a href='https://github.com/kylelange/teacher-tools' ><h3>CASE STUDY</h3></a>
             <h3>|</h3>
             <a src='#' ><h3>SEE THE CODE</h3></a>
           </div>
