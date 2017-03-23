@@ -1,20 +1,43 @@
-/* Base Application Styles */
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+/* App Application Styles */
 body {
   color: #fff;
   background: #222;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h6 {
   font-family:'Oswald', sans-serif;
   font-weight: 200;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h6 {
+  color: #98D698;
+  font-size: .75rem;
+}
+
+p {
+  font-family:'oswald', serif;
+  font-size: 1.2rem;
+  font-weight: 200;
+  letter-spacing: 0.05rem;
+}
+
+a {
+  border: 1px solid #98D698;
+  padding: 0 .6rem;
 }
 
 .hero-text {
   font-family:'Oswald', sans-serif;
   font-weight: 200;
   letter-spacing: 3px;
-  font-size: 90px;
+  font-size: 5.63rem;
   margin-left: 31%;
   margin-top: 0;
   border: 1px solid #31FF31;

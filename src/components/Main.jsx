@@ -2,8 +2,8 @@ require('normalize.css/normalize.css');
 require('styles/App.css');
 
 import React from 'react';
-import NavBar from './NavBar.js';
-import Projects from './Projects.js';
+import NavBar from './NavBar.jsx';
+import Projects from './Projects.jsx';
 
 //let yeomanImage = require('../images/yeoman.png');
 
