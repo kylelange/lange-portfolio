@@ -29,32 +29,32 @@ p {
 }
 
 a {
-  border: 1px solid #98D698;
+  border: 0.063rem solid #98D698;
   padding: 0 .6rem;
 }
 
 .hero-text {
   font-family:'Oswald', sans-serif;
   font-weight: 200;
-  letter-spacing: 3px;
+  letter-spacing: 0.188rem;
   font-size: 5.63rem;
   margin-left: 31%;
   margin-top: 0;
-  border: 1px solid #31FF31;
-  padding: 20px;
-  width: 403px;
+  border: 0.063rem solid #31FF31;
+  padding: 1.250rem;
+  width: 25.188rem;
 }
 
 .notice {
   margin: 20px auto;
   padding: 15px 0;
-  border-width: 1px 0;
+  border-width: 0.063rem 0;
   width: 95vw;
   height: 90vh;
   background-image: url(../images/working-hands.jpg);
   filter: grayscale(70%);
   background-repeat: no-repeat;
-  background-size: 1300px;
+  background-size: 81.250rem;
   background-position-x: 35%;
   background-position-y: 90%;
 }

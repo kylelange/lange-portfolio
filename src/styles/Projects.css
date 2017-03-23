@@ -5,14 +5,16 @@
   flex-direction: row;
   width: 95%;
   height: 31.25rem;
-  border: 1px solid #98D698;
+  border: 0.063rem solid #98D698;
   margin: 1.25rem auto;
-}
-.text-box {
 }
 
 .text-box > * {
   padding: 1.25rem 3.125rem;
+}
+
+.text-box h2 {
+  white-space: pre-line;
 }
 
 .text-box h3 {
@@ -37,8 +39,33 @@
   object-fit: contain;
 }
 
-@media only screen and (max-width:1200px) {
-  .text-box h6 {
-    color: red
+.screenshot-mobile-appear {
+  display: none;
+}
+
+@media only screen and (max-width:75rem) {
+
+}
+
+@media only screen and (max-width:66.25rem) {
+  .project-flex {
+    height: auto;
   }
+
+  .screenshot {
+    display: none;
+  }
+
+  .screenshot-mobile-appear {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 9.375rem;
+    object-fit: cover;
+    object-position: 0 0;
+  }
+}
+
+@media only screen and (max-width:40.063rem) {
+
 }
