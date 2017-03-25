@@ -18,6 +18,19 @@ li:last-child {
   margin-bottom: 30px;
 }
 
+li > * {
+  text-decoration: none;
+  color: #fff;
+}
+
+li:hover {
+  color: #98D698;
+}
+
+a:hover {
+  color: #98D698;
+}
+
 .nav-flex {
   display: flex;
   justify-content: flex-end;
