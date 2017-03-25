@@ -14,7 +14,7 @@
 }
 
 .text-box h2 {
-  white-space: pre-line;
+
 }
 
 .text-box h3 {
@@ -67,5 +67,13 @@
 }
 
 @media only screen and (max-width:40.063rem) {
-
+  .text-box h2 {
+    font-size: 1.5rem;
+  }
+  .text-box h3 {
+    font-size: 0.9rem;
+  }
+  .text-box p {
+    font-size: 1.1rem;
+  }
 }
