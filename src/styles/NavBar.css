@@ -18,14 +18,40 @@ li:last-child {
   margin-bottom: 1.875rem;
 }
 
+li > * {
+  text-decoration: none;
+  color: #fff;
+}
+
+li:hover {
+  color: #98D698;
+}
+
+a:hover {
+  color: #98D698;
+}
+
+@keyframes move {
+  from { top: 40px; left: 1250px; }
+  to   { top: 40px; left: 1000px; }
+}
+
+.move {
+  position: absolute;
+  animation: move 1.2s;
+  transition-timing-function: ease-in-out;
+  top: 40px;
+  left: 1000px;
+}
+
 .nav-flex {
   display: flex;
   justify-content: flex-end;
-  margin-right: 2.5rem;
+  /*margin-right: 2.5rem;*/
 }
 
 .ul-flex {
-  margin-right: 2.5rem;
+  /*margin-right: 2.5rem;*/
   display: flex;
   flex-direction: column;
   align-items: flex-end;
