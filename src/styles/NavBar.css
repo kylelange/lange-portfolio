@@ -31,27 +31,27 @@ a:hover {
   color: #98D698;
 }
 
-/*@keyframes move {
+@keyframes move {
   from { top: 40px; left: 1250px; }
-  to   { top: 40px; left: 900px; }
+  to   { top: 40px; left: 1000px; }
 }
 
 .move {
   position: absolute;
-  animation: move 1s;
+  animation: move 1.2s;
   transition-timing-function: ease-in-out;
   top: 40px;
-  left: 900px;
-}*/
+  left: 1000px;
+}
 
 .nav-flex {
   display: flex;
   justify-content: flex-end;
-  margin-right: 40px;
+  /*margin-right: 40px;*/
 }
 
 .ul-flex {
-  margin-right: 40px;
+  /*margin-right: 40px;*/
   display: flex;
   flex-direction: column;
   align-items: flex-end;

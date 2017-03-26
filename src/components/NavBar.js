@@ -16,8 +16,8 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <div>
-        <nav className='nav-flex' className='move'>
+      <div className='move'>
+        <nav className='nav-flex'>
           <ul className='ul-flex'>
             <li>WORK</li>
             <li>
