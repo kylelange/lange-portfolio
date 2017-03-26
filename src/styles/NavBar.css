@@ -31,6 +31,19 @@ a:hover {
   color: #98D698;
 }
 
+/*@keyframes move {
+  from { top: 40px; left: 1250px; }
+  to   { top: 40px; left: 900px; }
+}
+
+.move {
+  position: absolute;
+  animation: move 1s;
+  transition-timing-function: ease-in-out;
+  top: 40px;
+  left: 900px;
+}*/
+
 .nav-flex {
   display: flex;
   justify-content: flex-end;
