@@ -9,16 +9,26 @@ class Projects extends React.Component {
       super(props, context);
 
       this.state = {
-
+        physioToggle: false,
+        lumenToggle: false
       };
-
+      this.togglePhysio = this.togglePhysio.bind(this);
+      this.toggleLumen = this.toggleLumen.bind(this);
     }
 
   render() {
+    // let tileToggle = {
+    //   display: 'none'
+    // };
     return (
       <div>
+        {/*PhysioPDX/TEACHER TOOLS: Closed Pair*/}
+        <div className="project-flex-tile">
+          <img onClick={this.toggleLumen} src="images/settings-window.jpg" alt="a settings page" className="tile-image"></img>
+          <img onClick={this.togglePhysio} src="images/physio-splash.jpg" alt="the splash photo of a physical therapy website. In it, two people are holding hands." className="tile-image"></img>
+        </div>
 {/*TEACHER TOOLS: OPEN tile*/}
-        <div className="project-flex">
+        <div className="project-flex" style={{display: this.state.lumenToggle ? 'flex' : 'none'}}>
           <div className="text-box">
             <h2>Lumen Learning: TEACHER TOOLS</h2>
             <img src="images/settings-window.jpg" alt="a settings page" className="screenshot-mobile-appear"></img>
@@ -33,7 +43,7 @@ class Projects extends React.Component {
           <img src="images/settings-window.jpg" alt="a settings page" className="screenshot"></img>
         </div>
 {/*PhysioPDX: OPEN tile*/}
-        <div className="project-flex">
+        <div className="project-flex" style={{display: this.state.physioToggle ? 'flex' : 'none'}}>
           <img src="images/physio-splash.jpg" alt="the splash photo of a physical therapy website. In it, two people are holding hands." className="screenshot"></img>
           <div className="text-box">
             <h2>PhysioPDX: Design/ Implementation</h2>
@@ -47,13 +57,20 @@ class Projects extends React.Component {
             <h6>HTML5, CSS3, JQuery/JavaScript, Sketch3, UI design</h6>
           </div>
         </div>
-{/*PhysioPDX/TEACHER TOOLS: Closed Pair*/}
-        <div className="project-flex-tile">
-          <img src="images/settings-window.jpg" alt="a settings page" className="tile-image"></img>
-          <img src="images/physio-splash.jpg" alt="the splash photo of a physical therapy website. In it, two people are holding hands." className="tile-image"></img>
-        </div>
       </div>
     );
+  }
+
+  togglePhysio() {
+    this.setState({
+      physioToggle: !this.state.physioToggle
+    });
+  }
+
+  toggleLumen() {
+    this.setState({
+      lumenToggle: !this.state.lumenToggle
+    });
   }
 }
 
