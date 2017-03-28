@@ -17,6 +17,7 @@ class Projects extends React.Component {
   render() {
     return (
       <div>
+{/*TEACHER TOOLS: OPEN tile*/}
         <div className="project-flex">
           <div className="text-box">
             <h2>Lumen Learning: TEACHER TOOLS</h2>
@@ -31,7 +32,7 @@ class Projects extends React.Component {
           </div>
           <img src="images/settings-window.jpg" alt="a settings page" className="screenshot"></img>
         </div>
-
+{/*PhysioPDX: OPEN tile*/}
         <div className="project-flex">
           <img src="images/physio-splash.jpg" alt="the splash photo of a physical therapy website. In it, two people are holding hands." className="screenshot"></img>
           <div className="text-box">
@@ -45,6 +46,11 @@ class Projects extends React.Component {
             <p>PhysioPDX is a brick and mortar small business focused on physical healing. They needed a simple site to start a conversation with prosepctive clients and begin to answer the questions they have about their care.</p>
             <h6>HTML5, CSS3, JQuery/JavaScript, Sketch3, UI design</h6>
           </div>
+        </div>
+{/*PhysioPDX/TEACHER TOOLS: Closed Pair*/}
+        <div className="project-flex">
+          <img src="images/settings-window.jpg" alt="a settings page" className="tile-image"></img>
+          <img src="images/physio-splash.jpg" alt="the splash photo of a physical therapy website. In it, two people are holding hands." className="tile-image"></img>
         </div>
       </div>
     );

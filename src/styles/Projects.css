@@ -43,6 +43,14 @@
   display: none;
 }
 
+.tile-image {
+  border-left: 0;
+  width: 45%;
+  height: auto;
+  margin: 1.25rem;
+  object-fit: contain;
+}
+
 @media only screen and (max-width:75rem) {
 
 }
