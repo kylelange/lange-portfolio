@@ -43,12 +43,24 @@
   display: none;
 }
 
+.project-flex-tile {
+  display: flex;
+  justify-content: space-around;;
+  align-items: center;
+  flex-direction: row;
+  width: 95%;
+  height: 31.25rem;
+  border: 0.063rem solid #98D698;
+  margin: 1.25rem auto;
+}
+
 .tile-image {
   border-left: 0;
-  width: 45%;
-  height: auto;
+  width: 40%;
+  height: 460px;
   margin: 1.25rem;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: 0 0;
 }
 
 @media only screen and (max-width:75rem) {

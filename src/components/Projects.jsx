@@ -36,7 +36,7 @@ class Projects extends React.Component {
         <div className="project-flex">
           <img src="images/physio-splash.jpg" alt="the splash photo of a physical therapy website. In it, two people are holding hands." className="screenshot"></img>
           <div className="text-box">
-            <h2>PhysioPDX: WEBSITE Design/ Implementation</h2>
+            <h2>PhysioPDX: Design/ Implementation</h2>
             <img src="images/physio-splash.jpg" alt="the splash photo of a physical therapy website. In it, two people are holding hands." className="screenshot-mobile-appear"></img>
             <div className="flex-default">
               <a href='https://github.com/kylelange/physio-pdx' ><h3>CASE STUDY</h3></a>
@@ -48,7 +48,7 @@ class Projects extends React.Component {
           </div>
         </div>
 {/*PhysioPDX/TEACHER TOOLS: Closed Pair*/}
-        <div className="project-flex">
+        <div className="project-flex-tile">
           <img src="images/settings-window.jpg" alt="a settings page" className="tile-image"></img>
           <img src="images/physio-splash.jpg" alt="the splash photo of a physical therapy website. In it, two people are holding hands." className="tile-image"></img>
         </div>
