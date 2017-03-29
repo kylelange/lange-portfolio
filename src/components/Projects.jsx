@@ -10,21 +10,26 @@ class Projects extends React.Component {
 
       this.state = {
         physioToggle: false,
-        lumenToggle: false
+        lumenToggle: false,
+        toggleTest: false
       };
       this.togglePhysio = this.togglePhysio.bind(this);
       this.toggleLumen = this.toggleLumen.bind(this);
     }
 
   render() {
-    // let tileToggle = {
-    //   display: 'none'
-    // };
+{/**/}
+    let tileToggle = {
+      border: '3px solid red'
+    };
+    let tileBlue = {
+      border: '3px solid blue'
+    }
     return (
       <div>
-        {/*PhysioPDX/TEACHER TOOLS: Closed Pair*/}
+{/*PhysioPDX/TEACHER TOOLS: Closed Pair*/}
         <div className="project-flex-tile">
-          <img onClick={this.toggleLumen} src="images/settings-window.jpg" alt="a settings page" className="tile-image"></img>
+          <img style={this.state.toggleTest ? tileToggle : tileBlue} onClick={this.toggleLumen} src="images/settings-window.jpg" alt="a settings page" className="tile-image"></img>
           <img onClick={this.togglePhysio} src="images/physio-splash.jpg" alt="the splash photo of a physical therapy website. In it, two people are holding hands." className="tile-image"></img>
         </div>
 {/*TEACHER TOOLS: OPEN tile*/}
@@ -61,6 +66,20 @@ class Projects extends React.Component {
     );
   }
 
+  // toggleTile() {
+  //   if()
+  //   {
+  //     this.setState({
+  //       physioToggle: !this.state.physioToggle
+  //     });
+  //   } else if ()
+  //   {
+  //     this.setState({
+  //       lumenToggle: !this.state.lumenToggle
+  //     });
+  //   }
+  // }
+
   togglePhysio() {
     this.setState({
       physioToggle: !this.state.physioToggle
@@ -69,7 +88,8 @@ class Projects extends React.Component {
 
   toggleLumen() {
     this.setState({
-      lumenToggle: !this.state.lumenToggle
+      lumenToggle: !this.state.lumenToggle,
+      toggleTest: !this.state.toggleTest
     });
   }
 }
