@@ -109,16 +109,40 @@
     object-fit: cover;
     object-position: 0 0;
   }
+
+  .project-flex-tile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    height: auto;
+    border: 0.063rem solid #98D698;
+    margin: 1.25rem auto;
+  }
+
+  .tile-image {
+    width: 80%;
+    height: 17.53rem;
+  }
 }
 
 @media only screen and (max-width:40.063rem) {
   .text-box h2 {
     font-size: 1.5rem;
   }
+
   .text-box h3 {
     font-size: 0.9rem;
   }
+
   .text-box p {
     font-size: 1.1rem;
   }
+
+  .tile-image {
+    width: 80%;
+    height: 16.57rem;
+  }
+
 }

@@ -29,11 +29,11 @@ li a {
 }
 
 li:hover {
-  color: #98D698;
+  color: #31FF31;
 }
 
 a:hover {
-  color: #98D698;
+  color: #31FF31;
 }
 
 @keyframes move {
@@ -52,11 +52,9 @@ a:hover {
 .nav-flex {
   display: flex;
   justify-content: flex-end;
-  /*margin-right: 2.5rem;*/
 }
 
 .ul-flex {
-  /*margin-right: 2.5rem;*/
   display: flex;
   flex-direction: column;
   align-items: flex-end;

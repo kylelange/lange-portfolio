@@ -14,7 +14,7 @@ class Projects extends React.Component {
       };
       this.toggleLumen = this.toggleLumen.bind(this);
       this.togglePhysio = this.togglePhysio.bind(this);
-    }
+  }
 
   render() {
 {/* toggleTest style changes*/}
@@ -39,10 +39,10 @@ class Projects extends React.Component {
     return (
       <div>
   {/*PhysioPDX/TEACHER TOOLS: Closed Pair*/}
-          <div className="project-flex-tile">
-            <img onClick={this.toggleLumen} src="images/settings-window.jpg" alt="a settings page" className="tile-image"></img>
-            <img onClick={this.togglePhysio} src="images/physio-splash.jpg" alt="the splash photo of a physical therapy website. In it, two people are holding hands." className="tile-image"></img>
-          </div>
+        <div className="project-flex-tile">
+          <img onClick={this.toggleLumen} src="images/settings-window.jpg" alt="a settings page" className="tile-image"></img>
+          <img onClick={this.togglePhysio} src="images/physio-splash.jpg" alt="the splash photo of a physical therapy website. In it, two people are holding hands." className="tile-image"></img>
+        </div>
   {/*TEACHER TOOLS: OPEN tile*/}
         <div style={this.state.lumenToggle ? tileOn : tileOff}>
           <div className="project-flex">
