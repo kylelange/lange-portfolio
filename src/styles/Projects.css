@@ -66,7 +66,7 @@
 .tile-image {
   border-left: 0;
   width: 40%;
-  height: 460px;
+  height: 28.75rem;
   margin: 1.25rem;
   object-fit: cover;
   object-position: 0 0;
@@ -78,6 +78,14 @@
   -webkit-box-shadow: 0.188rem 0.125rem 0.625rem -0.250rem rgba(355,355,355,1);
   -moz-box-shadow: 0.188rem 0.125rem 0.625rem -0.250rem rgba(355,355,355,1);
   box-shadow: 0.188rem 0.125rem 0.625rem -0.250rem rgba(355,355,355,1);
+}
+
+.x-out {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  top: 2.188rem;
+  right: 2.813rem;
 }
 
 @media only screen and (max-width:75rem) {
