@@ -23,7 +23,7 @@ class AppComponent extends React.Component {
       <div className="index">
         <div className="notice">
           <NavBar />
-          <h1 className='hero-text' >KYLE LANGE</h1>
+          <img src="images/portfolio-logo.png" alt="a logo of my name: Kyle Lange" className="logo-img"></img>
         </div>
         <Projects />
       </div>
