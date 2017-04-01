@@ -107,7 +107,7 @@
     width: 80%;
     height: 9.375rem;
     object-fit: cover;
-    object-position: 0 0;
+    object-position: 0 -220px;
   }
 
   .project-flex-tile {
@@ -127,6 +127,17 @@
   }
 }
 
+@media only screen and (max-width:796px) {
+  .tile-image {
+    width: 80%;
+    height: 18.21rem;
+  }
+
+  .screenshot-mobile-appear {
+    object-position: 0 -140px;
+  }
+}
+
 @media only screen and (max-width:40.063rem) {
   .text-box h2 {
     font-size: 1.5rem;
@@ -143,6 +154,12 @@
   .tile-image {
     width: 80%;
     height: 16.57rem;
+  }
+
+  .screenshot-mobile-appear {
+    padding-left: 10%;
+    padding-right: 10%;
+    object-position: 0 -100px;
   }
 
 }
