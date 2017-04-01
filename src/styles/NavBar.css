@@ -37,13 +37,14 @@ a:hover {
 }
 
 @keyframes move {
-  from { top: 10%; left: 110%; }
-  to   { top: 10%; left: 80%; }
+  0% { top: 10%; left: 110%; }
+  20% { top: 10%; left: 110%; }
+  100%  { top: 10%; left: 80%; }
 }
 
 .move {
   position: absolute;
-  animation: move 1.2s;
+  animation: move 1.6s;
   transition-timing-function: ease-in-out;
   top: 10%;
   left: 80%;

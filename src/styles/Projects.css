@@ -13,10 +13,6 @@
   padding: 1.25rem 3.125rem;
 }
 
-.text-box h2 {
-
-}
-
 .text-box h3 {
   color: #98D698;
 }
@@ -127,7 +123,7 @@
   }
 }
 
-@media only screen and (max-width:796px) {
+@media only screen and (max-width:49.750rem) {
   .tile-image {
     width: 80%;
     height: 18.21rem;

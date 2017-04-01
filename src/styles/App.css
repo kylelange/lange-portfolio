@@ -47,7 +47,14 @@ a {
   background-position-y: 90%;
 }
 
+@keyframes pulse {
+  0% { opacity: 0;}
+  100% { opacity: 1;}
+}
+
 .logo-img {
+  animation: pulse 1.6s ease-in-out;
+  opacity: 1;
   display: flex;
   justify-content: center;
   margin-top: 20%;
