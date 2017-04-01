@@ -37,16 +37,16 @@ a:hover {
 }
 
 @keyframes move {
-  from { top: 40px; left: 1250px; }
-  to   { top: 40px; left: 1000px; }
+  from { top: 10%; left: 110%; }
+  to   { top: 10%; left: 80%; }
 }
 
 .move {
   position: absolute;
   animation: move 1.2s;
   transition-timing-function: ease-in-out;
-  top: 40px;
-  left: 1000px;
+  top: 10%;
+  left: 80%;
 }
 
 .nav-flex {
@@ -64,4 +64,28 @@ a:hover {
   -webkit-box-shadow: 0.188rem 0.125rem 0.625rem -0.250rem rgba(49,255,49,1);
   -moz-box-shadow: 0.188rem 0.125rem 0.625rem -0.250rem rgba(49,255,49,1);
   box-shadow: 0.188rem 0.125rem 0.625rem -0.250rem rgba(49,255,49,1);
+}
+
+
+@media only screen and (max-width:50.5rem) {
+
+  @keyframes move {
+    from { top: 10%; left: 110%; }
+    to   { top: 10%; left: 70%; }
+  }
+
+  .move {
+    left: 70%;
+  }
+}
+
+@media only screen and (max-width:32.2rem) {
+  @keyframes move {
+    from { top: 10%; left: 110%; }
+    to   { top: 10%; left: 53%; }
+  }
+
+  .move {
+    left: 53%;
+  }
 }

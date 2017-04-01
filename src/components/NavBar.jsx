@@ -20,10 +20,10 @@ class NavBar extends React.Component {
         <nav className='nav-flex'>
           <ul className='ul-flex'>
             <li>WORK</li>
+            <li>ABOUT</li>
             <li>
-              <a href='mailto:baronsintrees@gmail.com'>ABOUT</a>
+              <a href='mailto:baronsintrees@gmail.com'>CONTACT</a>
             </li>
-            <li>CONTACT</li>
           </ul>
         </nav>
       </div>
