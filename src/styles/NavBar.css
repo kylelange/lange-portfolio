@@ -37,16 +37,21 @@ a:hover {
 }
 
 @keyframes move {
-  0% { top: 10%; left: 110%; }
-  20% { top: 10%; left: 110%; }
-  100%  { top: 10%; left: 80%; }
+  0% { top: 5%; left: 110%; }
+  20% { top: 5%; left: 110%; }
+  100%  { top: 5%; left: 80%; }
+}
+
+@keyframes pulse {
+  0% { opacity: 0;}
+  100% { opacity: 1;}
 }
 
 .move {
   position: absolute;
-  animation: move 1.6s;
+  animation: move 1.6s, pulse 3s;
   transition-timing-function: ease-in-out;
-  top: 10%;
+  top: 5%;
   left: 80%;
 }
 
@@ -71,8 +76,8 @@ a:hover {
 @media only screen and (max-width:50.5rem) {
 
   @keyframes move {
-    from { top: 10%; left: 110%; }
-    to   { top: 10%; left: 70%; }
+    from { top: 5%; left: 110%; }
+    to   { top: 5%; left: 70%; }
   }
 
   .move {
@@ -82,8 +87,8 @@ a:hover {
 
 @media only screen and (max-width:32.2rem) {
   @keyframes move {
-    from { top: 10%; left: 110%; }
-    to   { top: 10%; left: 53%; }
+    from { top: 5%; left: 110%; }
+    to   { top: 5%; left: 53%; }
   }
 
   .move {

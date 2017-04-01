@@ -57,8 +57,23 @@ a {
   opacity: 1;
   display: flex;
   justify-content: center;
-  margin-top: 20%;
-  margin-left: 30%;
-  width: 40%;
+  margin-top: 210px;
+  margin-left: 25%;
+  min-width: 45%;
   height: auto;
+}
+
+@media only screen and (max-width:50.5rem) {
+
+  .logo-img {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 210px;
+  }
+}
+
+@media only screen and (max-width:32.2rem) {
+  .logo-img {
+    margin-top: 300px;
+  }
 }
