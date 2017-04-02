@@ -40,6 +40,24 @@ class Projects extends React.Component {
       backgroundColor: '#222',
       marginTop: '-10000px'
     }
+    const tileOnRowTwo = {
+      transition: 'visibility .5s, opacity .5s ease-in-out',
+      visibility: 'visable',
+      opacity: '1',
+      position: 'absolute',
+      top: '71.8rem',
+      left: '0',
+      backgroundColor: '#222'
+    };
+    const tileOffRowTwo = {
+      transition: 'opacity .5s ease-in-out, margin-top 0s .6s',
+      opacity: '0',
+      position: 'absolute',
+      top: '71.8rem',
+      left: '0',
+      backgroundColor: '#222',
+      marginTop: '-10000px'
+    }
     return (
       <div>
 {/*PhysioPDX/TEACHER TOOLS: Closed Pair*/}
@@ -89,7 +107,7 @@ class Projects extends React.Component {
           </div>
         </div>
 {/*Quelle: Open Tile*/}
-        <div style={this.state.quelleToggle ? tileOn : tileOff}>
+        <div style={this.state.quelleToggle ? tileOnRowTwo : tileOffRowTwo}>
           <div className="project-flex">
             <div className="text-box">
               <h2>Quelle: a Q and A site</h2>
@@ -107,7 +125,7 @@ class Projects extends React.Component {
           </div>
         </div>
 {/*Black Rabbit Logo: OPEN tile*/}
-        <div style={this.state.rabbitToggle ? tileOn : tileOff}>
+        <div style={this.state.rabbitToggle ? tileOnRowTwo : tileOffRowTwo}>
           <div className="project-flex">
             <img src="images/black-rabbit.jpg" alt="a logo of a rabbit for an events company" className="screenshot"></img>
             <img src="images/Xout-portfolio.png" alt="an X to close the modal window" onClick={this.toggleRabbit} className="x-out"></img>
