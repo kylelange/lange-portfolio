@@ -4,6 +4,7 @@ require('styles/App.css');
 import React from 'react';
 import NavBar from './NavBar.jsx';
 import Projects from './Projects.jsx';
+import AboutMe from './AboutMe.jsx';
 
 //let yeomanImage = require('../images/yeoman.png');
 
@@ -26,6 +27,7 @@ class AppComponent extends React.Component {
           <img src="images/portfolio-logo.png" alt="a logo of my name: Kyle Lange" className="logo-img"></img>
         </div>
         <Projects />
+        <AboutMe />
       </div>
     );
   }
