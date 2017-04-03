@@ -67,8 +67,8 @@ class Projects extends React.Component {
         </div>
 {/*Quelle/BlackRabbitLogo: Closed Pair*/}
         <div className="project-flex-tile">
-          <img onClick={this.toggleRabbit} src="images/black-rabbit.jpg" alt="a logo of a rabbit for an events company" className="tile-image"></img>
           <img onClick={this.toggleQuelle} src="images/quelle.jpg" alt="A Q and A site to create, respond, update, and delete" className="tile-image"></img>
+          <img onClick={this.toggleRabbit} src="images/black-rabbit.jpg" alt="a logo of a rabbit for an events company" className="tile-image"></img>
         </div>
 {/*TEACHER TOOLS: OPEN tile*/}
         <div style={this.state.lumenToggle ? tileOn : tileOff}>
@@ -110,7 +110,7 @@ class Projects extends React.Component {
         <div style={this.state.quelleToggle ? tileOnRowTwo : tileOffRowTwo}>
           <div className="project-flex">
             <div className="text-box">
-              <h2>Quelle: a Q and A site</h2>
+              <h2>Quelle: a Q AND A SITE</h2>
               <img src="images/quelle.jpg" alt="A Q and A site to create, respond, update, and delete" className="screenshot-mobile-appear"></img>
               <div className="flex-default">
                 <a href='https://github.com/kylelange/quelle-QandA' ><h3>CASE STUDY</h3></a>
@@ -130,7 +130,7 @@ class Projects extends React.Component {
             <img src="images/black-rabbit.jpg" alt="a logo of a rabbit for an events company" className="screenshot"></img>
             <img src="images/Xout-portfolio.png" alt="an X to close the modal window" onClick={this.toggleRabbit} className="x-out"></img>
             <div className="text-box">
-              <h2>PhysioPDX: Design/ Implementation</h2>
+              <h2>Black Rabbit: LOGO DESIGN</h2>
               <img src="images/black-rabbit.jpg" alt="a logo of a rabbit for an events company" className="screenshot-mobile-appear"></img>
               <div className="flex-default">
                 <a href='https://github.com/kylelange/black-rabbit-logo' ><h3>CASE STUDY</h3></a>
