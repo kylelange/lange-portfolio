@@ -27,7 +27,7 @@ class Projects extends React.Component {
       visibility: 'visable',
       opacity: '1',
       position: 'absolute',
-      top: '39.25rem',
+      top: '39rem',
       left: '0',
       backgroundColor: '#222'
     };
@@ -35,7 +35,7 @@ class Projects extends React.Component {
       transition: 'opacity .5s ease-in-out, margin-top 0s .6s',
       opacity: '0',
       position: 'absolute',
-      top: '39.25rem',
+      top: '39rem',
       left: '0',
       backgroundColor: '#222',
       marginTop: '-10000px'
@@ -45,7 +45,7 @@ class Projects extends React.Component {
       visibility: 'visable',
       opacity: '1',
       position: 'absolute',
-      top: '71.8rem',
+      top: '71.6rem',
       left: '0',
       backgroundColor: '#222'
     };
@@ -53,7 +53,7 @@ class Projects extends React.Component {
       transition: 'opacity .5s ease-in-out, margin-top 0s .6s',
       opacity: '0',
       position: 'absolute',
-      top: '71.8rem',
+      top: '71.6rem',
       left: '0',
       backgroundColor: '#222',
       marginTop: '-10000px'
