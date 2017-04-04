@@ -1,3 +1,67 @@
-.test-h1 {
-  color: red;
+.aboutme {
+  width: 95%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.27rem auto;
+  background-image: url(../images/portrait-fake.jpg);
+  filter: grayscale(70%);
+  background-repeat: no-repeat;
+  background-size: 81.250rem;
+  background-position-y: 90%;
+}
+
+.aboutme-title {
+ margin-top: 180px;
+}
+
+.aboutme-col1 {
+  width: 35%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.aboutme-col1 h1, p{
+  color: #222;
+}
+
+.aboutme-col1 h6{
+  color: #222;
+  font-size: 14px;
+}
+
+.aboutme-col2 {
+  width: 35%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+
+.aboutme-col2 h1, p, h2{
+  color: #222;
+}
+
+.aboutme-col2 img {
+  padding: 20px;
+}
+
+.aboutme-email a {
+  text-decoration: none;
+  border: none;
+  color: #222;
+}
+
+.aboutme-email a:hover {
+  color: #31FF31;
+  text-decoration: underline;
+}
+
+.aboutme-logo {
+  width: 50px;
+  height: 50px;
+  align-self: center;
 }
