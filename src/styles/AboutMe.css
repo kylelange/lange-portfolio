@@ -4,11 +4,12 @@
   display: flex;
   justify-content: space-between;
   margin: 1.27rem auto;
-  background-image: url(../images/kyle-portrait.jpg);
+  background-image: url(../images/kyle-portrait2.jpg);
   filter: grayscale(70%);
   background-repeat: no-repeat;
   background-size: 81.250rem;
-  background-position-y: 60%;
+
+  background-position-y: 20%;
   background-position-x: 57%;
 }
 
@@ -19,7 +20,7 @@
 
 .aboutme-col1 {
   background-color: rgba(255, 255, 255, 0.6);
-  width: 35%;
+  width: 32%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -37,17 +38,13 @@
 
 .aboutme-col2 {
   background-color: rgba(255, 255, 255, 0.6);
-  width: 35%;
+  width: 34%;
   height: auto;
   display: flex;
   flex-direction: column;
   padding: 20px;
   align-items: center;
 }
-
-/*.aboutme-col2 h1, p{
-  color: #222;
-}*/
 
 .aboutme-col2 img {
   padding: 20px;
@@ -72,4 +69,52 @@
   width: 50px;
   height: 50px;
   align-self: center;
+}
+
+.aboutme-hidden {
+  display: none;
+}
+
+@media only screen and (max-width:66.25rem) {
+  .aboutme {
+    background-position-x: 45%;
+    background-position-y: 20%;
+  }
+  .aboutme-col2 {
+    width: 24%;
+  }
+}
+
+@media only screen and (max-width:50.5rem) {
+  .aboutme {
+    background-position-x: 30%;
+    background-position-y: 100%;
+    background-size: cover;
+  }
+  .aboutme-col1 {
+    width: 40%;
+  }
+  .aboutme-col2 {
+    display: none;
+  }
+  .aboutme-hidden {
+    display: block;
+  }
+  .aboutme-hidden a {
+    border: none;
+  }
+  .aboutme-title {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width:32.2rem) {
+  .aboutme {
+    background-position-x: 41%;
+    background-position-y: 100%;
+    background-size: cover;
+  }
+  .aboutme-col1 {
+    width: 50%;
+  }
 }

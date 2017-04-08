@@ -84,9 +84,9 @@
   right: 2.813rem;
 }
 
-@media only screen and (max-width:75rem) {
+/*@media only screen and (max-width:75rem) {
 
-}
+}*/
 
 @media only screen and (max-width:66.25rem) {
   .project-flex {
