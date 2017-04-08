@@ -75,6 +75,14 @@ a:hover {
 
 @media only screen and (max-width:50.5rem) {
 
+  li:first-child {
+    margin-top: 0.875rem;
+  }
+
+  li:last-child {
+    margin-bottom: 0.875rem;
+  }
+
   @keyframes move {
     from { top: 5%; left: 110%; }
     to   { top: 5%; left: 70%; }

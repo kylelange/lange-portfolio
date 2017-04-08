@@ -24,7 +24,7 @@ class AppComponent extends React.Component {
         </div>
         <div className="aboutme-col2">
           <h2 className="aboutme-title">CONTACT ME:</h2>
-          <p class className="aboutme-email"><a href="mailto:baronsintrees@gmail.com"> baronsintrees@gmail.com</a></p>
+          <p className="aboutme-email"><a href="mailto:baronsintrees@gmail.com"> baronsintrees@gmail.com</a></p>
           <a href="https://github.com/kylelange" ><img src="images/github-logo.png" alt="a logo of my github repositories" className="aboutme-logo"></img></a>
           <a href="https://www.linkedin.com/in/kyle-lange-dev/" ><img src="images/linkedin-logo.png" alt="a logo of my linkedIn account" className="aboutme-logo"></img></a>
         {/*href link not working*/}

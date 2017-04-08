@@ -37,7 +37,7 @@ a {
   margin: 20px auto;
   padding: 15px 0;
   border-width: 0.063rem 0;
-  width: 1198.890px;
+  width: 95%;
   height: 574px;
   background-image: url(../images/working-hands.jpg);
   filter: grayscale(70%);
@@ -66,15 +66,17 @@ a {
 @media only screen and (max-width:50.5rem) {
 
   .logo-img {
-    width: 70%;
-    margin-left: 20%;
-    margin-top: 210px;
+    width: 55%;
+    min-width: 370px;
+    margin-left: 20vw;
+    margin-top: 200px;
   }
 }
 
 @media only screen and (max-width:32.2rem) {
   .logo-img {
     width: 80%;
+    min-width: 0;
     margin-left: 10%;
     margin-top: 300px;
   }
