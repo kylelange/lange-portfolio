@@ -21,13 +21,13 @@ class Projects extends React.Component {
   }
 
   render() {
-{/* toggleTest style changes*/}
+{/* toggle style changes*/}
     const tileOn = {
       transition: 'visibility .5s, opacity .5s ease-in-out',
       visibility: 'visable',
       opacity: '1',
       position: 'absolute',
-      top: '39rem',
+      top: '42.25rem',
       left: '0',
       backgroundColor: '#222'
     };
@@ -35,7 +35,7 @@ class Projects extends React.Component {
       transition: 'opacity .5s ease-in-out, margin-top 0s .6s',
       opacity: '0',
       position: 'absolute',
-      top: '39rem',
+      top: '42.25rem',
       left: '0',
       backgroundColor: '#222',
       marginTop: '-10000px'
@@ -45,7 +45,7 @@ class Projects extends React.Component {
       visibility: 'visable',
       opacity: '1',
       position: 'absolute',
-      top: '71.6rem',
+      top: '78.15rem',
       left: '0',
       backgroundColor: '#222'
     };
@@ -53,7 +53,7 @@ class Projects extends React.Component {
       transition: 'opacity .5s ease-in-out, margin-top 0s .6s',
       opacity: '0',
       position: 'absolute',
-      top: '71.6rem',
+      top: '78.15rem',
       left: '0',
       backgroundColor: '#222',
       marginTop: '-10000px'
@@ -95,7 +95,7 @@ class Projects extends React.Component {
             <img src="images/Xout-portfolio.png" alt="an X to close the modal window" onClick={this.togglePhysio} className="x-out"></img>
             <div className="text-box">
               <h2>PhysioPDX: Design/ Implementation</h2>
-              <img src="images/physio-splash.jpg" alt="the splash photo of a physical therapy website. In it, two people are holding hands." className="screenshot-mobile-appear"></img>
+              <img src="images/physio-splash.jpg" alt="the splash photo of a physical therapy website. In it, two people are holding hands." className="screenshot-mobile-physio"></img>
               <div className="flex-default">
                 <a href='https://github.com/kylelange/physio-pdx' ><h3>CASE STUDY</h3></a>
                 <h3>|</h3>
@@ -107,10 +107,10 @@ class Projects extends React.Component {
           </div>
         </div>
 {/*Quelle: Open Tile*/}
-        <div style={this.state.quelleToggle ? tileOnRowTwo : tileOffRowTwo}>
+        <div className="tileRowTwo" style={this.state.quelleToggle ? tileOnRowTwo : tileOffRowTwo}>
           <div className="project-flex">
             <div className="text-box">
-              <h2>Quelle: a Q AND A SITE</h2>
+              <h2>Quelle: a Q and A site</h2>
               <img src="images/quelle.jpg" alt="A Q and A site to create, respond, update, and delete" className="screenshot-mobile-appear"></img>
               <div className="flex-default">
                 <a href='https://github.com/kylelange/quelle-QandA' ><h3>CASE STUDY</h3></a>
@@ -125,19 +125,19 @@ class Projects extends React.Component {
           </div>
         </div>
 {/*Black Rabbit Logo: OPEN tile*/}
-        <div style={this.state.rabbitToggle ? tileOnRowTwo : tileOffRowTwo}>
+        <div className="tileRowTwo" style={this.state.rabbitToggle ? tileOnRowTwo : tileOffRowTwo}>
           <div className="project-flex">
             <img src="images/black-rabbit.jpg" alt="a logo of a rabbit for an events company" className="screenshot"></img>
             <img src="images/Xout-portfolio.png" alt="an X to close the modal window" onClick={this.toggleRabbit} className="x-out"></img>
             <div className="text-box">
-              <h2>Black Rabbit: LOGO DESIGN</h2>
-              <img src="images/black-rabbit.jpg" alt="a logo of a rabbit for an events company" className="screenshot-mobile-appear"></img>
+              <h2>PhysioPDX: Design/ Implementation</h2>
+              <img src="images/black-rabbit.jpg" alt="a logo of a rabbit for an events company" className="screenshot-mobile-black"></img>
               <div className="flex-default">
                 <a href='https://github.com/kylelange/black-rabbit-logo' ><h3>CASE STUDY</h3></a>
                 <h3>|</h3>
                 <a href='https://github.com/kylelange/black-rabbit-logo' ><h3>SEE THE CODE</h3></a>
               </div>
-              <p>Black Rabbit Consulting and an events management and planning company here in Portland.  I was hired to design their logo and design iterations for a letterhead and business cards.  I most recently saw the logo on Lupe Fiasco's concert poster at the Roseland Theatre.</p>
+              <p>Black Rabbit Consulting and an events management and planning company here in Portland.  I was hired to design their logo and design iterations for a letterhead and business cards.</p>
               <h6>Hand drawing, client-centered soft skills, Sketch3</h6>
             </div>
           </div>
