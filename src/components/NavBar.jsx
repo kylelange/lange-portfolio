@@ -19,8 +19,8 @@ class NavBar extends React.Component {
       <div className='move'>
         <nav className='nav-flex'>
           <ul className='ul-flex'>
-            <li>WORK</li>
-            <li>ABOUT</li>
+            <li><a href="#workNav">WORK</a></li>
+            <li><a href="#aboutNav">ABOUT</a></li>
             <li>
               <a href='mailto:baronsintrees@gmail.com'>CONTACT</a>
             </li>
