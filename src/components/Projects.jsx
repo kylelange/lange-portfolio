@@ -60,6 +60,7 @@ class Projects extends React.Component {
     }
     return (
       <div>
+        <a name="workNav" className="hidden-work-nav"></a>
 {/*PhysioPDX/TEACHER TOOLS: Closed Pair*/}
         <div className="project-flex-tile">
           <img onClick={this.toggleLumen} src="images/settings-window.jpg" alt="a settings page" className="tile-image"></img>

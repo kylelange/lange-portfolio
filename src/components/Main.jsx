@@ -26,13 +26,13 @@ class AppComponent extends React.Component {
           <NavBar />
           <img src="images/portfolio-logo.png" alt="a logo of my name: Kyle Lange" className="logo-img"></img>
         </div>
-        <a name="workNav" ><Projects /></a>
-        <a name="aboutNav"><AboutMe /></a>
+        <Projects />
+        <AboutMe />
       </div>
     );
   }
 
-  
+
 
 }
 

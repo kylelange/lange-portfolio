@@ -75,6 +75,15 @@
   display: none;
 }
 
+.hidden-about-nav {
+  border: none;
+  padding: 0;
+  margin: 0;
+  /*position: absolute;
+  top: 0;
+  left: 0;*/
+}
+
 @media only screen and (max-width:66.25rem) {
   .aboutme {
     background-position-x: 45%;

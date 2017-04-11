@@ -91,6 +91,12 @@
   right: 2.813rem;
 }
 
+
+  .hidden-work-nav {
+    border: none;
+    padding: 0;
+  }
+
 /*@media only screen and (max-width:75rem) {
 
 }*/
