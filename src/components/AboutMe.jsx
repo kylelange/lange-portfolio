@@ -42,7 +42,7 @@ class AppComponent extends React.Component {
             <a href='public/Lange_Resume_Apr17.pdf'><img src="images/resume-logo.png" alt="a logo of my design: representing a resume" className="aboutme-logo"></img></a>
           </div>
         </div>
-      </div>  
+      </div>
     );
   }
 }
