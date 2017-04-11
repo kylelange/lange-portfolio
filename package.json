@@ -1,5 +1,5 @@
 {
-  "name": "react-webpack-template",
+  "name": "lange-portflio",
   "version": "1.7.2",
   "description": "A base skeleton template for react and webpack without task runners",
   "main": "server.js",
@@ -16,7 +16,8 @@
     "clean": "rimraf dist/*",
     "release:major": "npm version major && npm publish && git push --follow-tags",
     "release:minor": "npm version minor && npm publish && git push --follow-tags",
-    "release:patch": "npm version patch && npm publish && git push --follow-tags"
+    "release:patch": "npm version patch && npm publish && git push --follow-tags",
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -34,7 +35,7 @@
   "bugs": {
     "url": "https://github.com/react-webpack-generators/react-webpack-template/issues"
   },
-  "homepage": "https://github.com/react-webpack-generators/react-webpack-template#readme",
+  "homepage": "https://kylelange.github.io/lange-portflio",
   "devDependencies": {
     "babel-core": "^6.0.0",
     "babel-eslint": "^6.0.0",
@@ -51,6 +52,7 @@
     "eslint-loader": "^1.0.0",
     "eslint-plugin-react": "^6.0.0",
     "file-loader": "^0.9.0",
+    "gh-pages": "^0.12.0",
     "glob": "^7.0.0",
     "isparta-instrumenter-loader": "^1.0.0",
     "karma": "^1.0.0",
