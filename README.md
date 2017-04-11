@@ -1,3 +1,64 @@
+# _Kyle Lange's Portfolio_
+
+#### _{A web development portfolio}, {April, 2017}_
+
+#### By _**Kyle Lange**_
+
+### See it live [HERE:](https://www.kylelange.com)
+
+![screenshot](portfolio-screenshot.png)
+
+## New Learnings
+
+* React.js linking within a single page app.
+
+* style toggling to hidden-about-nav
+
+* keyframe animations for movement and fade effects
+
+
+## Setup/Installation Requirements
+
+Download this repo using your terminal:
+
+    git clone lange-portfolio
+
+    cd lange-portfolio
+
+
+Install dependencies on your local computer:
+
+    npm install
+
+Run the site at [localhost:8000](http://localhost:8000/)
+
+    npm serve
+
+    navigate to http://localhost:8000/ in your browser.
+
+## Known Bugs
+
+_There are no known bugs as of the last commit. Please send an ISSUE on github in the repository if you see something I have not._
+
+## Support and contact details
+
+For questions or comments, please __email  [Kyle here.](baronsintrees@gmail.com)__
+
+## Technologies Used
+
+* React.js
+* ES6 JavaScript
+* CSS 3
+* HTML5
+* Sketch3 for all pre-code design.
+
+### License
+
+Copyright (c) 2016 **_Kyle Lange_** MIT License
+
+
+React Template REAMDME.md below:
+
 # Welcome to react-webpack-template
 > This repository holds the base template for the current version of [generator-react-webpack](https://github.com/newtriks/generator-react-webpack).
 It can also be used as the prototype for newly generated projects.
