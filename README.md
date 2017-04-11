@@ -6,7 +6,7 @@
 
 ### See it live [HERE:](https://www.kylelange.com)
 
-![screenshot](portfolio-screenshot.png)
+![screenshot](./src/images/portfolio-screenshot.png)
 
 ## New Learnings
 
