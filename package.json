@@ -35,7 +35,7 @@
   "bugs": {
     "url": "https://github.com/react-webpack-generators/react-webpack-template/issues"
   },
-  "homepage": "https://kylelange.github.io/lange-portflio",
+  "homepage": "https://kylelange.com",
   "devDependencies": {
     "babel-core": "^6.0.0",
     "babel-eslint": "^6.0.0",
