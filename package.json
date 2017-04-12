@@ -17,7 +17,7 @@
     "release:major": "npm version major && npm publish && git push --follow-tags",
     "release:minor": "npm version minor && npm publish && git push --follow-tags",
     "release:patch": "npm version patch && npm publish && git push --follow-tags",
-    "deploy": "npm start&&gh-pages -d start"
+    "deploy": "npm run serve&&gh-pages -d start"
   },
   "repository": {
     "type": "git",
@@ -35,7 +35,7 @@
   "bugs": {
     "url": "https://github.com/react-webpack-generators/react-webpack-template/issues"
   },
-  "homepage": "https://kylelange.github.io/lange-portflio",
+  "homepage": "https://kylelange.github.io/lange-portflio/",
   "devDependencies": {
     "babel-core": "^6.0.0",
     "babel-eslint": "^6.0.0",
