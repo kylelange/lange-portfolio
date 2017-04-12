@@ -10,7 +10,7 @@
     "posttest": "npm run lint",
     "serve": "node server.js --env=dev",
     "serve:dist": "node server.js --env=dist",
-    "dist": "npm run copy && npm copy:images && webpack --env=dist",
+    "dist": "npm run copy && npm run copy:images && webpack --env=dist",
     "lint": "eslint ./src",
     "copy": "copyfiles -f ./src/index.html ./src/favicon.ico ./dist",
     "copy:images": "copyfiles -f ./src/images ./dist/assets",
