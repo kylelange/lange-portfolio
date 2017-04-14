@@ -4,7 +4,7 @@
 
 #### By _**Kyle Lange**_
 
-### See it live [HERE:](https://www.kylelange.com)
+### See it live [HERE:](https://kylelange.github.io/lange-portfolio/)
 
 ![screenshot](./src/images/portfolio-screenshot.png)
 
