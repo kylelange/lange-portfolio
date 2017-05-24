@@ -6,6 +6,7 @@ const WebpackDevServer = require('webpack-dev-server');
 const config = require('./webpack.config');
 const open = require('open');
 
+
 /**
  * Flag indicating whether webpack compiled for the first time.
  * @type {boolean}

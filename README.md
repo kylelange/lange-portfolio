@@ -32,7 +32,7 @@ Install dependencies on your local computer:
 
 Run the site at [localhost:8000](http://localhost:8000/)
 
-    npm serve
+    npm start
 
     navigate to http://localhost:8000/ in your browser.
 

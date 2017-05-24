@@ -5,6 +5,7 @@ import React from 'react';
 import NavBar from './NavBar.jsx';
 import Projects from './Projects.jsx';
 import AboutMe from './AboutMe.jsx';
+import spdf from './spdf.jsx';
 
 //let yeomanImage = require('../images/yeoman.png');
 
@@ -28,6 +29,7 @@ class AppComponent extends React.Component {
         </div>
         <Projects />
         <AboutMe />
+        <spdf.SimplePDF file="./LangeResume_2017.pdf"/>
       </div>
     );
   }

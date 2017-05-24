@@ -39,7 +39,7 @@ class AppComponent extends React.Component {
             <a href="https://github.com/kylelange" ><img src="images/github-logo.png" alt="a logo of my github repositories" className="aboutme-logo"></img></a>
             <a href="https://www.linkedin.com/in/kyle-lange-dev/" ><img src="images/linkedin-logo.png" alt="a logo of my linkedIn account" className="aboutme-logo"></img></a>
           {/*href link not working*/}
-            <a href='public/Lange_Resume_Apr17.pdf'><img src="images/resume-logo.png" alt="a logo of my design: representing a resume" className="aboutme-logo"></img></a>
+            <a href="public/LangeResume_2017.pdf" download="LangeResume_2017.pdf"><img src="images/resume-logo.png" alt="a logo of my design: representing a resume" className="aboutme-logo"></img></a>
           </div>
         </div>
       </div>
